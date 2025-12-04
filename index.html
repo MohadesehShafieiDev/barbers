@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>barber Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/barber-shop-favicon-01 (1).webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+    <main>
+        <section class="homepage">
+            <div class="container">
+                <header class="main-header d-flex justify-content-between pt-5">
+                    <figure><img src="assets/img/avada-barbershop-logo.svg" alt="..."></figure>
+
+                    <div class="d-flex gap-4 p-2">
+                        <i class="bi bi-person-fill" id="personalIcon"
+                            style="font-size:45px; cursor:pointer; color:white;">
+                        </i>
+
+                        <div id="popupOverlay"></div>
+
+                        <div id="popupForm">
+                            <h3>Contact Form</h3>
+
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Phone Number">
+                            <input type="text" placeholder="Address">
+                            <input type="text" placeholder="Subject">
+
+                            <button id="sendBtn" class="submit-btn">Send Message</button>
+                        </div>
+
+
+                        <div class="hamburger" id="openMenu"><i class="bi bi-list"></i></div>
+
+                        <div class="menu" id="menu">
+                            <div class="close" id="closeMenu"><i class="bi bi-x-square"></i></div>
+
+                            <ul>
+                                <li>Home</li>
+                                <li>About us</li>
+                                <li>Services</li>
+                                <li>Shop</li>
+                                <li>Our team</li>
+                                <li>Blog</li>
+                                <li>Contact us</li>
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+
+                <h1 class=" text-center " id="title1">Barber Shop</h1>
+                <h3 class=" text-center" id="h3title">The Pinnacle of Male Grooming</h3>
+                <button class="m-auto d-block">Learn More</button>
+            </div>
+        </section>
+
+
+        <section class="part2">
+            <div class="container">
+                <h3 class="text-center">AWARD WINNING</h3>
+                <h2 class="text-center">Pro Barbers</h2>
+                <button class="d-block m-auto">MEET YOUR NEW BARBER</button>
+            </div>
+        </section>
+
+
+        <section class="part3" data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out-cubic">
+            <div class="container">
+                <h3 class="text-center">MENS GROOMING</h3>
+                <h2 class="text-center pb-4">Services</h2>
+
+                <div class="d-lg-flex align-items-lg-center justify-content-lg-center pb-5">
+                    <div>
+                        <img class="m-auto d-block myimg2" src="assets/img/avadabarbers-trimcut-icon-before.png" alt="">
+                        <h3 class="text-center">Trim & Cut</h3>
+                        <p class="text-center">
+                            Avada Barbers are experts in the <br> lickety split trim and hair cut.
+                            <br> Quick but careful and ridiculously <br> good looking.
+                        </p>
+                    </div>
+
+                    <div>
+                        <img class="m-auto d-block myimg2" src="assets/img/avadabarbers-washndry-icon.webp" alt="">
+                        <h3 class="text-center">Wash & Dry</h3>
+                        <p class="text-center">
+                            Take a seat in our fine leather chairs, <br> lean back and let us lather
+                            you a fresh <br> head in a luxurious fashion.
+                        </p>
+                    </div>
+
+                    <div>
+                        <img class="m-auto d-block myimg2" src="assets/img/avadabarbers-beardtrim-icon.png" alt="">
+                        <h3 class="text-center">Beard Tidy</h3>
+                        <p class="text-center">
+                            Tame the tangles and untidy facial <br> hairs like a gentleman with our
+                            <br> Beard Tidy services from Avada Barbers.
+                        </p>
+                    </div>
+                </div>
+
+                <button class="m-auto d-block">Read About Our Services</button>
+            </div>
+        </section>
+
+
+      
+
+
+        <section class="part4">
+            <div class="container">
+                <h3 class="text-center pt-5">WE HAVE YOU COVERED</h3>
+                <h2 class="text-center">Avada Grooming Products</h2>
+
+                <div class="d-lg-flex align-items-lg-center justify-content-lg-center pb-5">
+
+                    <div data-aos="fade-up" data-aos-delay="100">
+                        <img class="m-auto d-block" src="assets/img/brush_dark-400x400.webp" alt="">
+                        <h3 class="text-center">Brush</h3>
+                        <p class="text-center">$15.00</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="250">
+                        <img class="m-auto d-block" src="assets/img/scissors-400x400.webp" alt="">
+                        <h3 class="text-center">Scissors</h3>
+                        <p class="text-center">$85.00</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="400">
+                        <img class="m-auto d-block" src="assets/img/hot_oil_dark-400x400.webp" alt="">
+                        <h3 class="text-center">Hot Oil</h3>
+                        <p class="text-center">$15.00</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="550">
+                        <img class="m-auto d-block" src="assets/img/straight_razor_dark-400x400.webp" alt="">
+                        <h3 class="text-center">Straight Razor</h3>
+                        <p class="text-center">$30.00</p>
+                    </div>
+
+                </div>
+
+                <button class="m-auto d-block" data-aos="fade-up" data-aos-delay="700">
+                    Shop Our Product Range
+                </button>
+
+            </div>
+        </section>
+
+
+
+        <section class="part5">
+            <div class="container">
+                <h3>WHAT PEOPLE SAY</h3>
+                <h2>Reviews</h2>
+                <div class="d-lg-flex align-items-lg-center justify-content-lg-center pt-4  gap-5">
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Morbi <br> mollis eleifend ante
+                            ut sagittis. Sed <br> sodales, urna et imperdiet placerat, <br> ex nisi aliquam orci, ac
+                            varius odio <br> libero et arcu.</p>
+                        <img src="assets/img/avadabarbers-trimcut-gallery6-200x200.jpg" alt="">
+                        <h5>John Doe</h5>
+
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Morbi <br> mollis eleifend ante
+                            ut sagittis. Sed <br> sodales, urna et imperdiet placerat, <br> ex nisi aliquam orci, ac
+                            varius odio <br> libero et arcu.</p>
+                        <img src="assets/img/avadabarbers-trimcut-gallery7-200x201.jpg" alt="">
+                        <h5>Pete Jones</h5>
+                    </div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Morbi <br> mollis eleifend ante
+                            ut sagittis. Sed <br> sodales, urna et imperdiet placerat, <br> ex nisi aliquam orci, ac
+                            varius odio <br> libero et arcu.</p>
+                        <img src="assets/img/avadabarbers-trimcut-gallery3-200x201.jpg" alt="">
+                        <h5>Mark Wilson</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section class="part6">
+            
+
+            <div class="container">
+                <h3>TALES FROM THE BARBER <br> SHOP</h3>
+                <h2>Recent Blog Posts</h2>
+
+                <div class="d-lg-flex align-items-lg-center justify-content-lg-center gap-5">
+
+                    <div>
+                        <img class="w-100" src="assets/img/avadabarbers-second-blog-400x308.jpg" data-aos="zoom-in"
+                            data-aos-duration="1000" data-aos-delay="100" alt="">
+                        <h3>Avada Barbers Now <br> Open</h3>
+                        <p>Praesent mi erosn faucibus ac <br> convallis sed magna. Donec risus. <br> Posuere eu
+                            efficitur accumsan fringilla quis.</p>
+                    </div>
+
+                    <div>
+                        <img class="w-100" src="assets/img/avadabarbers-choosing-blog-400x308.jpg" data-aos="zoom-in"
+                            data-aos-duration="1000" data-aos-delay="250" alt="">
+                        <h3>Choosing The Right <br> Barber</h3>
+                        <p>Praesent mi erosn faucibus ac <br> convallis sed magna. Donec risus. <br> Posuere eu
+                            efficitur accumsan fringilla quis.</p>
+                    </div>
+
+                    <div>
+                        <img class="w-100" src="assets/img/avadabarbers-ourservice-blog-400x308.jpg" data-aos="zoom-in"
+                            data-aos-duration="1000" data-aos-delay="400" alt="">
+                        <h3>Quick Service Barber <br> Guide</h3>
+                        <p>Praesent mi erosn faucibus ac <br> convallis sed magna. Donec risus. <br> Posuere eu
+                            efficitur accumsan fringilla quis.</p>
+                    </div>
+
+                </div>
+
+                <button>Read More From Our Blog</button>
+            </div>
+        </section>
+
+
+        <!-- Swiper -->
+        <section class="swipersection">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="assets/img/1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/5.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/9.jpg" alt=""></div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <!-- alert -->
+        <div class="avada-popup-overlay">
+            <div class="avada-popup">
+                <button class="close-btn">✕</button>
+
+                <h2>50% off</h2>
+                <p class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam cum obcaecati
+                    esse nam voluptatibus, eaque optio ullam! Quibusdam quam praesentium, saepe reiciendis, molestias
+                    dolore ducimus magni quo itaque repellat doloribus!</p>
+
+                <div class="coupon-box">
+                    <div class="coupon-btn">AVADA BARBERS</div>
+                </div>
+            </div>
+        </div>
+
+        <button id="backToTop" class="back-to-top">↑</button>
+        <section class="part7">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-center gap-5">
+                    <div class="d-none d-lg-block">
+                        <img class="w-100" src="assets/img/avadabarbers_footer_shop_image-400x312.webp" alt="">
+                        <button>Shop Our Range Now</button>
+                    </div>
+                    <div>
+                        <img class="footerimg " src="assets/img/avada-barbershop-logo.svg" alt="">
+                        <p>Avada Barbers <br>123 New York Street <br>New York City <br>info@yourwebsite.com <br>+1 (555)
+                            555-1212</p>
+                        <h5>FOLLOW US</h5>
+                        <div class="d-flex align-items-center justify-content-center gap-3">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter-x"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-youtube"></i>
+                        </div>
+                    </div>
+                    <div class="d-none d-lg-block">
+                        <img class="w-100" src="assets/img/avadabarbers_footer_appointment_image-400x312.webp" alt="">
+                        <button>Book Your Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <p class="text-center">Developed by <span>Mohadeseh Shafiei</span></p>
+        </footer>
+    </main>
+
+    
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- script js -->
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
